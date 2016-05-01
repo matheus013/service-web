@@ -18,18 +18,35 @@ def home(request):
     return render(request, 'home.html', {})
 
 
-def new_user(request):
+def new_user(request, username, password, email, name, photo, level, score,
+             age, height, weight, diabetes, hypertension, anemia, high_cholesterol):
+    user = Nutron_User()
+    user.username = username
+    user.password = password
+    user.email = email
+    user.name = name
+    user.photo = photo
+    user.level = level
+    user.score = score
+    user.age = age
+    user.weight = weight
+    user.height = height
+    user.diabetes = diabetes
+    user.hypertension = hypertension
+    user.anemia = anemia
+    user.high_cholesterol = high_cholesterol
+    user.save()
     return render(request, 'home.html', {})
 
 
 def new_food(request, name, calorific_value, diabetes, hypertension, anemia, high_cholesterol):
-    f = Nutron_Food
-    f.diabetes = diabetes
-    f.calorific_value = calorific_value
-    f.high_cholesterol = high_cholesterol
-    f.anemia = anemia
-    f.name = name
-    f.hypertension = hypertension
-    f.save()
+    food = Nutron_Food()
+    food.diabetes = diabetes
+    food.calorific_value = calorific_value
+    food.high_cholesterol = high_cholesterol
+    food.anemia = anemia
+    food.name = name
+    food.hypertension = hypertension
+    food.save()
 
     return render(request, 'home.html', {})
