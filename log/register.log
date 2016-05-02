@@ -1,89 +1,48 @@
 Performing system checks...
 
 System check identified no issues (0 silenced).
-May 01, 2016 - 16:39:43
+May 02, 2016 - 17:25:47
 Django version 1.7.9, using settings 'WebService.settings'
 Starting development server at http://localhost:8080/
 Quit the server with CONTROL-C.
-[01/May/2016 16:39:59] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59246
-[01/May/2016 16:40:05] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2911
+[02/May/2016 17:25:47] "GET / HTTP/1.1" 200 50
+[02/May/2016 17:25:53] "GET /admin/ HTTP/1.1" 200 6582
+[02/May/2016 17:25:53] "GET /admin/ HTTP/1.1" 200 6582
+[02/May/2016 17:26:02] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 500 76469
 Performing system checks...
 
 System check identified no issues (0 silenced).
-May 01, 2016 - 16:41:08
+May 02, 2016 - 17:26:26
 Django version 1.7.9, using settings 'WebService.settings'
 Starting development server at http://localhost:8080/
 Quit the server with CONTROL-C.
-[01/May/2016 16:41:10] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:11] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:11] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:11] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:12] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:12] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:13] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2910
-[01/May/2016 16:41:22] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59246
+[02/May/2016 17:26:27] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 500 69910
+[02/May/2016 17:26:33] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 500 69910
+[02/May/2016 17:26:34] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 500 69910
+[02/May/2016 17:26:34] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 500 69910
+[02/May/2016 17:26:34] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 500 69910
 Performing system checks...
 
 System check identified no issues (0 silenced).
-May 01, 2016 - 16:42:18
+May 02, 2016 - 17:26:41
 Django version 1.7.9, using settings 'WebService.settings'
 Starting development server at http://localhost:8080/
 Quit the server with CONTROL-C.
-[01/May/2016 16:42:24] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59434
-[01/May/2016 16:42:24] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59434
-[01/May/2016 16:42:25] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59434
-[01/May/2016 16:42:25] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59434
-[01/May/2016 16:42:25] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59434
-[01/May/2016 16:42:25] "GET /new_food/?gordo/99/1/0/1/0/ HTTP/1.1" 500 59434
-[01/May/2016 16:42:30] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2911
-[01/May/2016 16:42:32] "GET /new_food/gordo/99/1/0/1/0/ HTTP/1.1" 404 2911
-Performing system checks...
-
-System check identified no issues (0 silenced).
-May 01, 2016 - 16:44:03
-Django version 1.7.9, using settings 'WebService.settings'
-Starting development server at http://localhost:8080/
-Quit the server with CONTROL-C.
-[01/May/2016 16:44:06] "GET /new_food/gordo/9/1/0/1/0/ HTTP/1.1" 500 69244
-Performing system checks...
-
-System check identified no issues (0 silenced).
-May 01, 2016 - 16:45:23
-Django version 1.7.9, using settings 'WebService.settings'
-Starting development server at http://localhost:8080/
-Quit the server with CONTROL-C.
-[01/May/2016 16:45:24] "GET /new_food/gordo/9/1/0/1/0/ HTTP/1.1" 500 69485
-[01/May/2016 16:45:25] "GET /new_food/gordo/9/1/0/1/0/ HTTP/1.1" 500 69485
-[01/May/2016 16:45:25] "GET /new_food/gordo/9/1/0/1/0/ HTTP/1.1" 500 69485
-[01/May/2016 16:45:26] "GET /new_food/gordo/9/1/0/1/0/ HTTP/1.1" 500 69485
-[01/May/2016 16:45:26] "GET /new_food/gordo/9/1/0/1/0/ HTTP/1.1" 500 69485
-[01/May/2016 16:45:32] "GET /new_food/gordo/88/1/0/1/0/ HTTP/1.1" 500 69258
-[01/May/2016 16:46:32] "GET /new_food/gordo/878/1/0/1/0/ HTTP/1.1" 500 69272
-[01/May/2016 16:46:37] "GET /new_food/gordo/8435378/1/0/1/0/ HTTP/1.1" 500 69328
-Performing system checks...
-
-System check identified no issues (0 silenced).
-May 01, 2016 - 16:49:09
-Django version 1.7.9, using settings 'WebService.settings'
-Starting development server at http://localhost:8080/
-Quit the server with CONTROL-C.
-[01/May/2016 16:49:13] "GET /new_food/gordo/8435378/1/0/1/0/ HTTP/1.1" 200 50
-[01/May/2016 16:49:27] "GET /admin HTTP/1.1" 301 0
-[01/May/2016 16:49:28] "GET /admin/ HTTP/1.1" 200 5800
-[01/May/2016 16:49:30] "GET /admin/webservice/nutron_food/ HTTP/1.1" 200 4707
-[01/May/2016 16:49:31] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
-[01/May/2016 16:49:33] "GET /admin/webservice/nutron_food/8/ HTTP/1.1" 200 6163
-[01/May/2016 16:49:33] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
-[01/May/2016 16:53:32] "GET /new_food/gordo/8435378/1/0/1/0/ HTTP/1.1" 200 50
-[01/May/2016 16:53:34] "GET /admin/webservice/nutron_food/ HTTP/1.1" 200 4929
-[01/May/2016 16:53:34] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
-[01/May/2016 16:53:45] "GET /new_food/gordo/ HTTP/1.1" 404 2725
-[01/May/2016 16:53:49] "GET /new_food/ HTTP/1.1" 404 2707
-[01/May/2016 16:53:54] "GET /get_foods HTTP/1.1" 200 747
-Performing system checks...
-
-System check identified no issues (0 silenced).
-May 01, 2016 - 16:56:19
-Django version 1.7.9, using settings 'WebService.settings'
-Starting development server at http://localhost:8080/
-Quit the server with CONTROL-C.
+[02/May/2016 17:26:43] "GET /update_food/0/magro/0/1/0/1/0/ HTTP/1.1" 404 1660
+[02/May/2016 17:27:34] "GET /admin/ HTTP/1.1" 200 6582
+[02/May/2016 17:27:36] "GET /admin/webservice/nutron_food/ HTTP/1.1" 200 4485
+[02/May/2016 17:27:36] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[02/May/2016 17:28:20] "GET /update_food/75/magro/0/1/0/1/0/ HTTP/1.1" 200 50
+[02/May/2016 17:29:02] "GET /admin/webservice/nutron_food/ HTTP/1.1" 200 4485
+[02/May/2016 17:29:02] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[02/May/2016 17:29:02] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[02/May/2016 17:29:02] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[02/May/2016 17:29:02] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[02/May/2016 17:29:02] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[02/May/2016 17:29:02] "GET /static/admin/js/jquery.js HTTP/1.1" 304 0
+[02/May/2016 17:29:02] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[02/May/2016 17:29:02] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[02/May/2016 17:29:04] "GET /admin/webservice/nutron_food/75/ HTTP/1.1" 200 6159
+[02/May/2016 17:29:04] "GET /admin/jsi18n/ HTTP/1.1" 200 2372
+[02/May/2016 17:29:05] "GET /admin/webservice/nutron_food/ HTTP/1.1" 200 4485
+[02/May/2016 17:29:05] "GET /admin/jsi18n/ HTTP/1.1" 200 2372

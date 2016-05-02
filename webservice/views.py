@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 from .models import Nutron_Food, Nutron_User
 
@@ -49,4 +49,37 @@ def new_food(request, name, calorific_value, diabetes, hypertension, anemia, hig
     food.hypertension = hypertension
     food.save()
 
+    return render(request, 'home.html', {})
+
+
+def update_food(request, pk, name, calorific_value, diabetes, hypertension, anemia, high_cholesterol):
+    food = get_object_or_404(Nutron_Food, pk=pk)
+    food.diabetes = diabetes
+    food.calorific_value = calorific_value
+    food.high_cholesterol = high_cholesterol
+    food.anemia = anemia
+    food.name = name
+    food.hypertension = hypertension
+    food.save()
+    return render(request, 'home.html', {})
+
+
+def update_user(request, pk, username, password, email, name, photo, level, score,
+             age, height, weight, diabetes, hypertension, anemia, high_cholesterol):
+    user = get_object_or_404(Nutron_User, pk=pk)
+    user.username = username
+    user.password = password
+    user.email = email
+    user.name = name
+    user.photo = photo
+    user.level = level
+    user.score = score
+    user.age = age
+    user.weight = weight
+    user.height = height
+    user.diabetes = diabetes
+    user.hypertension = hypertension
+    user.anemia = anemia
+    user.high_cholesterol = high_cholesterol
+    user.save()
     return render(request, 'home.html', {})
